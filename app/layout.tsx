@@ -36,7 +36,6 @@ export default function RootLayout({
             <a href="/" className="hover:font-semibold">Índex</a>
             <a href="/quienes-somos" className="hover:font-semibold">Quienes somos?</a>
             <a href="/servicio-tecnico" className="hover:font-semibold">Servicio técnico</a>
-            <a href="/servidores" className="hover:font-semibold">Servidores</a>
             <a href="/contactanos" className="hover:font-semibold">Contactanos</a>
             <a href="/comentarios" className="hover:font-semibold">Comentarios y reseñas</a>
           </div>
