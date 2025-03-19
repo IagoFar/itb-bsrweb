@@ -40,9 +40,9 @@ export default function RootLayout({
           <div className="col-span-5 flex justify-between ">
             <Link href="/" className="hover:font-semibold">Índex</Link>
             <Link href="/quienes-somos" className="hover:font-semibold">Quienes somos?</Link>
-            <Link href="/servicio-tecnico" className="hover:font-semibold">Servicio técnLinkco</Link>
+            <Link href="/servicio-tecnico" className="hover:font-semibold">Servicio técnco</Link>
             <Link href="/contactanos" className="hover:font-semibold">Contactanos</Link>
-            <Link href="/comentarios" className="hover:font-semibold">Comentarios yLinkreseñas</Link>
+            <Link href="/comentarios" className="hover:font-semibold">Comentarios y reseñas</Link>
           </div>
           <div className="col-span-2 flex justify-end ">
             <Link href="/login" className="bg-blue-200 text-black text-sm mr-3 pr-4 pl-4 pt-1 pb-1 rounded-sm border border-zinc-400 transition duration-100 ease-in-out hover:bg-blue-100 ">Iniciar sesión</Link>
