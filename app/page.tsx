@@ -17,32 +17,31 @@ export default function Home() {
         </button>
       </div>
       <Accordion type="single" collapsible className="w-full">
-      <AccordionItem value="item-1" className="bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
-        <AccordionTrigger>¿Quienes somos?</AccordionTrigger>
-        <AccordionContent>
-        Ofrecemos reparación y mantenimiento de servidores a demanda para empresas, instituciones y clientes individuales. Nos especializamos en racks de servidores, optimización del rendimiento, instalación de hardware y actualización de sistemas operativos. Garantizamos soporte técnico especializado, tiempos de respuesta rápidos y soluciones personalizadas para minimizar el tiempo de inactividad y asegurar un funcionamiento óptimo.
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-2" className="mt-5 bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
-        <AccordionTrigger>Is it styled?</AccordionTrigger>
-        <AccordionContent>
-          Yes. It comes with default styles that matches the other
-          components&apos; aesthetic.
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-3" className="mt-5 bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
-        <AccordionTrigger>Is it animated?</AccordionTrigger>
-        <AccordionContent>
-          Yes. It's animated by default, but you can disable it if you prefer.
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-4" className="mt-5 bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
-        <AccordionTrigger>Is it accessible?</AccordionTrigger>
-        <AccordionContent>
-          Yes. It adheres to the WAI-ARIA design pattern.
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+        <AccordionItem value="item-1" className="bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
+          <AccordionTrigger>¿Quienes somos?</AccordionTrigger>
+          <AccordionContent>
+            Ofrecemos reparación y mantenimiento de servidores a demanda, con especialización en racks, optimización, instalación de hardware y actualización de sistemas operativos. Garantizamos soporte técnico y tiempos de respuesta rápidos.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2" className="mt-5 bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
+          <AccordionTrigger>Servicio técnico</AccordionTrigger>
+          <AccordionContent>
+            Brindamos soporte técnico especializado para asegurar el buen funcionamiento de los sistemas.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3" className="mt-5 bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
+          <AccordionTrigger>Contactanos</AccordionTrigger>
+          <AccordionContent>
+            Contacta con nosotros para consultas y soporte técnico rápido.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-4" className="mt-5 bg-white rounded-md p-2 pt-0 pb-0 border-2 shadow-md shadow-blue-600">
+          <AccordionTrigger>Comentarios y reseñas</AccordionTrigger>
+          <AccordionContent>
+            Recibe y consulta opiniones sobre nuestros servicios.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
     </div>
   );
 }
