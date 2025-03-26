@@ -16,6 +16,19 @@ export default function Home() {
           <input type="text" id="password" placeholder="***************" />
           <button>Iniciar Sesion</button>
         </form>
+        <p className="text-black text-6xl">Iniciar Sesión</p>    
+        <table border="1">
+          <thead>
+          <tr>
+            <th>Correo</th> 
+          </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th>ex:pepito@gmail.com</th>
+            </tr>
+          </tfoot>
+        </table>
       </div>
     </div>
   );

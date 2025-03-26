@@ -50,41 +50,6 @@ export default function RootLayout({
           </div>
         </div>
         {children}
-        <div className="grid grid-rows-1 grid-cols-4 items-top bg-white text-zinc-800 p-5 ms-5">
-          <div>
-            <div>
-              <Link href="https://www.x.com/@bcnserverrestorers"><FontAwesomeIcon icon={faXTwitter} className="text-2xl mr-5" /></Link>
-              <Link href="https://www.ingragram.com/@bcnserverrestorers"><FontAwesomeIcon icon={faInstagram} className="text-2xl mr-5 " /></Link>
-              <Link href="https://www.youtube.com/@bcnserverrestorers"><FontAwesomeIcon icon={faYoutube} className="text-2xl mr-5" /></Link>
-              <Link href="https://www.linkedin.com/@bcnserverrestorers"><FontAwesomeIcon icon={faLinkedin} className="text-2xl mr-5" /></Link>
-            </div>
-            <img src="Logo_black.png" alt="" className="mt-5 w-40"/>
-          </div>
-          <div className="p-2">
-            <h5 className="font-semibold mb-4">Director de Marketing <br/>(Carlos Morlás)</h5>
-            <p className="mb-2">carlos.morlas.7e7@itb.cat</p>
-            <p className="mb-2">+34 677744551</p>
-            <p className="mb-2">SMX</p>
-            <p className="mb-2">Diseño 3D</p>
-            <p className="mb-2">Marketing</p>
-          </div>
-          <div className="p-2">
-          <h5 className="font-semibold mb-4">Administrador de servidores<br/>(Iago Fariñas) </h5>
-            <p className="mb-2">iago.fainas.7e7@itb.cat</p>
-            <p className="mb-2">+34 6445821</p>
-            <p className="mb-2">SMX</p>
-            <p className="mb-2">Desarrollo de aplicaciones multiplataformas y videojuegos</p>
-            <p className="mb-2">Ingieneria Informática</p>
-          </div>
-          <div className="p-2">
-          <h5 className="font-semibold mb-4">Tecnico de Hardware <br/>(Victor Merino)</h5>
-            <p className="mb-2">victor.merino.7e6@itb.cat</p>
-            <p className="mb-2">+34 680354314</p>
-            <p className="mb-2">SMX</p>
-            <p className="mb-2">Desarrollo de aplicaciones multiplataformas</p>
-            <p className="mb-2">Ingieneria Informática</p>
-          </div>
-        </div>
       </body>
     </html>
   );
